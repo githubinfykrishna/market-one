@@ -30,7 +30,7 @@ label{font-size:11px;}
  #mobilecontainer{display:none;}
  #mobilemarket{display:none;} 
  .mobilemenu{display:none;}
- .arrowleft{background: url(../desktopimages/cta_arrow.png) 5px 0;background-repeat:no-repeat;}
+ .arrowleft{background: url(../desktopimages/cta_arrow.png) 5px 0;background-repeat:no-repeat;margin-top:3px;}
 }
 /* Desktop End Here */
 
@@ -108,22 +108,7 @@ label{font-size:11px;}
 .mobilemenu{background-color:#00A1D3;width:100%;height:100%;padding-top:10px;padding-bottom:30px;}
 .mobilemenu > div{margin-left:20px;margin-right:20px;margin-top:20px;padding-left:10px;height:50px;border-radius:10px;border:2px solid white;line-height:50px;color:white;font-size:16px;}
 .arrowimg{margin-top:10px;float:right;width:40px;}
- .arrowleft{background: url(../desktopimages/cta_arrow.png) 5px 0;background-repeat:no-repeat;margin-top:2px;}
-/*.flexcontainer{display:flex;}
-.welcome{padding-left:15px;width:60%;align-items:flex-start;height:100%;}
-.txthighlight{color:#00A1D3;text-decoration:underline;}
-.marT15{margin-top:15px;}
-.itemsflex{display:flex;align-items:flex-start;width:50%;height:100%;}
-.w60{width:60px;}
-.outerflex{padding-left:10px;}
-.h3over{margin-top:2px;margin-bottom:2px;font-weight:bold;}
-
-.padL10{padding-left:10px;}
-.outerform{display:flex;width:40%;margin-top:25px;padding-left:25px;height:525px;}
-.flex1{flex:1;}
-.selectouter{height:30px;border:1px solid #ccc;border-radius:4px;}
-.footerbtm{position:fixed;bottom:0;width:100%;background:#00A1D3;height:35px;color:#ffffff;font-size:12px;padding-left:15px;line-height:35px;}*/
-
+.arrowleft{background: url(../desktopimages/cta_arrow.png) 5px 0;background-repeat:no-repeat;margin-top:2px;}
 }
 
 /* Mobile End Here */
