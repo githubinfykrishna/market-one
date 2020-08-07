@@ -1,0 +1,129 @@
+/* Desktop Start Here */
+@media only screen and (min-width: 769px) {
+body {margin:0;font-family:Arial;font-size:14px;}
+ul{list-style:none;padding:0;margin:0;}
+li{color:#ffffff; font-size:13px;display:inline;text-transform:uppercase;line-height:35px;padding-left:15px;padding-right:10px;cursor:pointer;}
+h1{font-size:28px!important;}
+h3{font-size:16px!important;}
+label{font-size:11px;}
+.w85{width:85%!important;}
+.bgcolor{background-color:#00A1D3!important;width:150px;height:30px;line-height:15px!important;border:1px solid #00A1D3!important;}
+.bgcolor:hover{background-color:#00A1D3!important;border:1px solid #00A1D3!important;}
+.banner{background:url(../desktopimages/banner_large.jpg);width:100%;height:300px;background-repeat: no-repeat;background-size:cover;top:0;}
+.marketinnerimg{background-color: white;width:250px;height:125px;top:30px;position:relative;padding: 0 20px;}
+.header{width:100%;background:#00A1D3;height:35px;}
+.flexcontainer{display:flex;}
+.welcome{padding-left:15px;width:60%;align-items:flex-start;height:100%;}
+.txthighlight{color:#00A1D3;text-decoration:underline;}
+.marT15{margin-top:15px;}
+.itemsflex{display:flex;align-items:flex-start;width:50%;height:100%;}
+.w60{width:60px;}
+.outerflex{padding-left:10px;}
+.h3over{margin-top:2px;margin-bottom:2px;font-weight:bold;}
+.more{color:#00A1D3;text-transform:uppercase;font-size:12px;}
+.padL10{padding-left:10px;}
+.outerform{display:flex;width:40%;margin-top:25px;padding-left:25px;height:525px;}
+.flex1{flex:1;}
+.selectouter{height:30px;border:1px solid #ccc;border-radius:4px;}
+.footerbtm{position:fixed;bottom:0;width:100%;background:#00A1D3;height:35px;color:#ffffff;font-size:12px;padding-left:15px;line-height:35px;}
+ #bannertablet{display:none;}
+ #mobilecontainer{display:none;}
+ #mobilemarket{display:none;} 
+ .mobilemenu{display:none;}
+ .arrowleft{background: url(../desktopimages/cta_arrow.png) 5px 0;background-repeat:no-repeat;}
+}
+/* Desktop End Here */
+
+/* Tablet Start Here */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+body {margin:0;font-family:Arial;font-size:14px;}
+ul{list-style:none;padding:0;margin:0;}
+li{color:#ffffff; font-size:13px;display:inline;text-transform:uppercase;line-height:35px;padding-left:15px;padding-right:10px;cursor:pointer;}
+h1{font-size:28px!important;}
+h3{font-size:16px!important;}
+label{font-size:11px;}
+.w85{width:85%!important;}
+.bgcolor{background-color:#00A1D3!important;width:150px;height:30px;line-height:15px!important;border:1px solid #00A1D3!important;}
+.bgcolor:hover{background-color:#00A1D3!important;border:1px solid #00A1D3!important;} 
+ #bannerdesk{display:none;}
+.banner{background:url(../tabletimages/banner_medium.jpg);width:100%;height:200px;background-repeat: no-repeat;background-size:cover;top:0;}
+.marketinnerimg{background-color: white;width:150px;height:75px;top:10px;position:relative;padding: 0 20px;}
+.header{width:100%;background:#00A1D3;height:35px;}
+.flexcontainer{display:flex;}
+.welcome{padding-left:15px;width:60%;align-items:flex-start;height:100%;}
+.txthighlight{color:#00A1D3;text-decoration:underline;}
+.marT15{margin-top:15px;}
+.marL10{margin-left:10px;}
+.marT10{margin-top:10px;}
+.itemsflex{width:50%;height:100%;}
+.w60{width:60px;}
+.outerflex{padding-left:10px;}
+.h3over{margin-top:2px;margin-bottom:2px;font-weight:bold;}
+.more{color:#00A1D3;text-transform:uppercase;font-size:12px;}
+.padL10{padding-left:10px;}
+.outerform{display:flex;width:40%;margin-top:25px;padding-left:25px;height:525px;}
+.flex1{flex:1;}
+.selectouter{height:30px;border:1px solid #ccc;border-radius:4px;}
+.footerbtm{position:fixed;bottom:0;width:100%;background:#00A1D3;height:35px;color:#ffffff;font-size:12px;padding-left:15px;line-height:35px;}
+.marB20{margin-bottom:20px;}
+#mobilecontainer{display:none;}	
+#mobilemarket{display:none;}
+.mobilemenu{display:none;}
+.arrowleft{background: url(../desktopimages/cta_arrow.png) 5px 0;background-repeat:no-repeat;margin-top:3px;}
+}
+/* Tablet End Here */
+
+/* Mobile Start Here */
+@media only screen and (max-width: 480px) {
+body {margin:0;font-family:Arial;font-size:14px;}
+h1{font-size:28px!important;}
+h3{font-size:16px!important;}
+label{font-size:11px;}
+#bannerdesk{display:none;}
+#bannertablet{display:none;}
+.header{display:none;}
+.marL15{margin-left:15px;}
+.marR15{margin-right:15px;}
+.marT0{margin-top:0px;}
+.marmobT10{margin-top:10px;}
+.marmobL10{margin-left:10px;}
+ #mobilemarket, #mobilebanner, #mobilecontainer{display:block;}
+ .bordermob{border-bottom:1px solid #ccc;}
+ .mobbtm10{padding-bottom:10px;}
+.txthighlight{color:#00A1D3;text-decoration:underline;}
+.banner{background:url(../mobileimages/banner_small.jpg);width:100%;height:50px;background-repeat: no-repeat;background-size:cover;top:0;}
+.marketinnerimg{background-color: white;width:200px;height:40px;top:5px;position:relative;}	
+.flexcontainer{display:block;}
+.itemsflex{display:flex;align-items:flex-start;width:100%;height:100%;}
+.more{color:#00A1D3;text-transform:uppercase;font-size:12px;}
+.h3over{font-weight:bold;}
+.padmobL20{padding-right:20px;}
+.padmobR20{padding-left:20px;}
+.marmobT20{margin-top:20px;}
+.selectouter{height:30px;border:1px solid #ccc;border-radius:4px;}
+.w85{width:100%!important;}
+.bgcolor{background-color:#00A1D3!important;width:100%;height:40px;line-height:20px!important;border:1px solid #00A1D3!important;margin-top:10px;margin-bottom:30px!important;}
+.bgcolor:hover{background-color:#00A1D3!important;border:1px solid #00A1D3!important;}
+.footerbtm{bottom:0;width:100%;height:35px;color:#ccc;font-size:12px;padding-left:15px;line-height:35px;}
+.mobilemenu{background-color:#00A1D3;width:100%;height:100%;padding-top:10px;padding-bottom:30px;}
+.mobilemenu > div{margin-left:20px;margin-right:20px;margin-top:20px;padding-left:10px;height:50px;border-radius:10px;border:2px solid white;line-height:50px;color:white;font-size:16px;}
+.arrowimg{margin-top:10px;float:right;width:40px;}
+ .arrowleft{background: url(../desktopimages/cta_arrow.png) 5px 0;background-repeat:no-repeat;margin-top:2px;}
+/*.flexcontainer{display:flex;}
+.welcome{padding-left:15px;width:60%;align-items:flex-start;height:100%;}
+.txthighlight{color:#00A1D3;text-decoration:underline;}
+.marT15{margin-top:15px;}
+.itemsflex{display:flex;align-items:flex-start;width:50%;height:100%;}
+.w60{width:60px;}
+.outerflex{padding-left:10px;}
+.h3over{margin-top:2px;margin-bottom:2px;font-weight:bold;}
+
+.padL10{padding-left:10px;}
+.outerform{display:flex;width:40%;margin-top:25px;padding-left:25px;height:525px;}
+.flex1{flex:1;}
+.selectouter{height:30px;border:1px solid #ccc;border-radius:4px;}
+.footerbtm{position:fixed;bottom:0;width:100%;background:#00A1D3;height:35px;color:#ffffff;font-size:12px;padding-left:15px;line-height:35px;}*/
+
+}
+
+/* Mobile End Here */
