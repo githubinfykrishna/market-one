@@ -30,7 +30,7 @@ label{font-size:11px;}
  #mobilecontainer{display:none;}
  #mobilemarket{display:none;} 
  .mobilemenu{display:none;}
- .arrowleft{background: url(../desktopimages/cta_arrow.png) 5px 0;background-repeat:no-repeat;margin-top:3px;}
+ .arrowleft{background: url(../desktopimages/cta_arrow.png) 5px 0;background-repeat:no-repeat;margin-top:2px;}
 }
 /* Desktop End Here */
 
